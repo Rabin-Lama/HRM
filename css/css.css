@@ -1,0 +1,212 @@
+body
+	{
+		background:#fff;
+	}
+h3
+	{
+		text-align:center;
+		font-size:2em;
+		font-family:impact;
+		text-shadow:1px 1px 1px #fff;
+		background:#428BCA;
+		line-height:1.5em;
+		border-top:solid;
+		border-bottom:solid;
+	}
+h4
+	{
+		text-align:center;
+		font-size:1.4em;
+		font-family:impact;
+		text-shadow:1px 1px 1px #fff;
+		background:#428BCA;
+		line-height:1.5em;
+		border-top:solid;
+		border-bottom:solid;
+	}
+h5
+	{
+		text-align:center;
+		font-size:1.2em;
+		font-family:impact;
+		text-shadow:1px 1px 1px #fff;
+	}
+.textbox
+	{
+		height:34px;
+		padding:6px 12px;
+		font-size:14px;
+		line-height:1.42857143;
+		border:1px solid #ccc;
+		border-radius:4px;
+		box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+		transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s
+	}
+.textbox:focus
+	{
+		border-color:#66afe9;
+		box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+	}
+.tabs
+	{
+		text-align:center;
+		font-size:1.3em;
+		font-family:stencil;
+	}
+a, .nav-pills>li.active>a, .nav-pills>li.active>a:hover
+	{
+		color:black;
+	}
+.nav>li>a:hover
+	{
+		color:black;
+		background-color:#428BCA;
+	}
+.nav>li
+	{
+		border-radius:5px;
+	}
+.nav-stacked
+	{
+		padding-bottom:25px;
+		font-weight:bold;
+	}
+.login
+	{
+		border:2px solid black;
+	}
+.container>.recent-activities>h3
+	{
+		border-style:solid;
+	}
+.container>.quick-actions>h3
+	{
+		border-style:solid;
+	}
+.navbar
+	{
+		background:transparent;
+		border:none;
+	}
+.dropdown>.dropdown-menu>li>a:hover
+	{
+		background:#428BCA;
+	}
+.display-recent-activities
+	{
+		border:1px solid #000;
+	}
+.display-quick-actions
+	{
+		border:1px solid #000;
+	}
+.collapse>.nav>li>a
+	{
+		color:#000;
+	}
+.navbar-collapse>.navbar-nav>.active>a
+	{
+		color:#000;
+	}
+.collapse>.nav .open>a:focus
+	{
+		background:#428BCA;      
+		color:#000;
+	} 
+.collapse>.nav>.active>a /*  navigation bar > home tab  */
+	{
+		background:transparent;
+	}
+.collapse>.nav>li>a:hover, .collapse>.nav>.active>a:hover /* manage employee, leave requests, tab */
+	{
+		background:#428BCA;
+		color:#000;
+	}
+.collapse>.nav>.dropdown>a:focus /* maintains the background color of the tabs after being clicked */
+ 	{
+		background:#428BCA;
+		color:#000;
+	}
+.navbar-toggle, navbar-toggle:focus
+	{
+		background:transparent;
+		border:none;
+	}
+.navbar-header>.navbar-toggle:hover, .navbar-header>.navbar-toggle:focus
+	{
+		background:#428BCA;
+	}
+.navbar-toggle .icon-bar
+	{
+		color:red;
+	}
+.control-label
+	{
+		 padding-top:7px;
+		 text-align:right;
+	}
+/* .change-setting
+	{
+		 background:#D44C48;
+		 padding:1em;
+	} */
+.modal-content
+	{
+		background:#B5E61D;
+		text-align:center;
+	}
+/* .change-password
+	{
+		 margin-top:.5em;
+	} */
+.view-table    /* css of table */
+	{
+		border: 2px solid #000;
+	}
+.view-tool, .search-tool
+	{
+		margin-top:5px;
+		margin-bottom:5px;
+	}
+.textbox
+	{
+		height :2em;
+		width: 100%;
+		background: #b6fcd5;
+		border: none;
+		color: #000;
+	}
+.textbox:focus
+	{
+		background: #11ABB0;
+		border: none;
+	}
+.textbox2
+	{
+		height :10em;
+		width: 100%;
+		background: #b6fcd5;
+		border: none;
+		color: #000;
+	}
+.textbox2:focus
+	{
+		background: #11ABB0;
+		border: none;
+	}
+.jumbotron
+	{
+		background: #333;
+		color: blue;
+	}
+.jumbotron>p
+	{
+		font-size: 1em;
+	}
+.border {
+	border: 3px solid #428BCA;
+	padding: 5px;
+}
+.first-next {
+	margin-top: 10px;
+}
