@@ -12,3 +12,8 @@ host: localhost
 username: root
 
 password: rabin
+
+# Application login info
+username: admin
+
+password: admin
